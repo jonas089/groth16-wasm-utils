@@ -1,0 +1,16 @@
+[package]
+name = "groth16-verifier-casper"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+casper-types = "4.0.0"
+serde = "1"
+serde_json = "1"
+
+[dev-dependencies]
+casper-groth16 = { git = "https://github.com/cspr-rad/groth16-wasm" }
+ark-ec = "0.4.2"
+ark-bn254 = "0.4.0"
+num-bigint = "0.4.6"
+ark-ff = "0.4.2"
